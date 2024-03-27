@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy to production') { 
             steps {
-                bat 'Deploying .......'
+                echo 'Deploying...'
             }
         }            
     }
